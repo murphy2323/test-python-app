@@ -11,8 +11,8 @@ ADD . /app
 RUN pip install --trusted-host pypi.python.org -r requirements.pip
 
 
-# Make port 80 available to the world outside this container
-EXPOSE 80
+# Make port 8080 available to the world outside this container
+EXPOSE 8080
 
-# Run app.py when the container launches
-CMD ["python", "app.py"]
+  # Run app.py when the container launches
+CMD ["python", "get_ip/get_ip.py", "0.0.0.0", "8080"]
