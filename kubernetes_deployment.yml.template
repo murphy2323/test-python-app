@@ -8,6 +8,7 @@ metadata:
   name: get-ip
   labels:
     commit: ${WERCKER_GIT_COMMIT}
+    app: get-ip
 spec:
   replicas: 1
   selector:
