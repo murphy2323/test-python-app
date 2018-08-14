@@ -27,5 +27,4 @@ spec:
           containerPort: 8080
           protocol: TCP
       imagePullSecrets:
-      - name:  ${OKE_IMAGESECRET}
-
+      - name: ${OKE_IMAGESECRET}
