@@ -5,7 +5,6 @@ A simple Python application that uses the Bottle framework to serve a JSON encod
 
 Used as an example application for a tutorial on Wercker I am writing.
 
-
 ```
 usage: get_ip.py [-h] hostname port
 
